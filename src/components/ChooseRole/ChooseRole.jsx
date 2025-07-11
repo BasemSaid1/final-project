@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import img from "../../assets/bgRole.png";
 import { Link } from "react-router-dom";
-import { userContext } from "../../Context/userContext";
+import { userContext } from "../../context/userContext";
 
 export default function ChooseRole() {
   const { setUserRole } = useContext(userContext);

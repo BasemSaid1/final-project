@@ -8,7 +8,6 @@ import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
-import UserContextProvider from "./context/userContext";
 import Profile from "./components/Profile/Profile";
 import FindDoctor from "./components/FindDoctor/FindDoctor";
 import Contact from "./components/Contact/Contact";
@@ -21,6 +20,7 @@ import ResetPassword from "./components/ResetPassword/ResetPassword";
 import DoctorProfile from "./components/DoctorProfile/DoctorProfile";
 import PatientProfile from "./components/PatientProfile/PatientProfile";
 import BookAppointment from "./components/BookAppointment/BookAppointment";
+import UserContextProvider from "./Context/userContext";
 
 let x = createBrowserRouter([
   {

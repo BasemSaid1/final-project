@@ -20,7 +20,7 @@ import ResetPassword from "./components/ResetPassword/ResetPassword";
 import DoctorProfile from "./components/DoctorProfile/DoctorProfile";
 import PatientProfile from "./components/PatientProfile/PatientProfile";
 import BookAppointment from "./components/BookAppointment/BookAppointment";
-import UserContextProvider from "./Context/userContext";
+import UserContextProvider from "./context/userContext";
 
 let x = createBrowserRouter([
   {
